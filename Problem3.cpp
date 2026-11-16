@@ -22,7 +22,7 @@ struct Circle {
 
 int main()
 {
-    Circle airBubble{ 10, 4, 5 };
+    Circle airBubble{ 9, 4, 5 };
     Circle fireBall{ 3, 4, 2};
     double horizontalDifference = airBubble.xPosition - fireBall.xPosition;
     double verticalDifference = airBubble.yPosition - fireBall.yPosition; 
